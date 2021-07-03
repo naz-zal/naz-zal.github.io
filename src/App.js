@@ -1,15 +1,35 @@
-import './App.css';
-import 'bootstrap/dist/css/bootstrap.min.css'
-import './components/Navbar'
-import Navbar from './components/Navbar';
+import React from 'react';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import NavMenu from './components/NavMenu';
+import Footer from './components/Footer';
 
-function App() {
+import Home from './pages/Home';
+import Portfolio from './pages/Portfolio';
+import Blog from './pages/Blog';
+import About from './pages/About';
+
+export default function App() {
   return (
-    <div className="App">
-      <Navbar />
-      <h2>Portfolio</h2>
-    </div>
+    <Router>
+      <NavMenu />
+      <Switch>
+        <Route path="/about">
+          <About />
+        </Route>
+        <Route path="/home">
+          <Home />
+        </Route>
+        <Route path="/blog">
+          <Blog />
+        </Route>
+        <Route path="/portfolio">
+          <Portfolio />
+        </Route>
+        <Route path="">
+          <Home />
+        </Route>
+      </Switch>
+      <Footer />
+    </Router>
   );
 }
-
-export default App;
