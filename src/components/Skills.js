@@ -1,5 +1,7 @@
 import React from 'react';
-import { MdDesktopMac, MdCode, MdPhonelinkSetup } from 'react-icons/md';
+import { BiCode } from 'react-icons/bi';
+import {GiElectricalResistance} from 'react-icons/gi';
+import { BiPencil } from 'react-icons/bi'; 
 import styled from 'styled-components';
 import SkillsItems from './SkillsItems';
 
@@ -28,19 +30,19 @@ export default function Skills() {
       <div className="container">
         <div className="services__allItems">
           <SkillsItems
-            icon={<MdDesktopMac />}
+            icon={<GiElectricalResistance />}
             title="Electrical Engineer"
-            desc="I do ui/ux design for the website that helps website to get a unique look."
+            desc="With a focus on embedded systems, I enjoy programming microprocessors and controllers."
           />
           <SkillsItems
-            icon={<MdCode />}
+            icon={<BiCode />}
             title="Real-time 3D Developer"
-            desc="I also develop the websites. I create high performance website with blazing fast speed."
+            desc="Creating interactive 3D experiences through software, design, and spatial audio."
           />
           <SkillsItems
-            icon={<MdPhonelinkSetup />}
-            title="Design"
-            desc="I develop mobile application. I create mobile app with eye catching ui. "
+            icon={<BiPencil />}
+            title="Writing"
+            desc="As one of my favourite creative outlets, I enjoy writing anything from stories to think-pieces."
           />
         </div>
       </div>

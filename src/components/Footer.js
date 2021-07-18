@@ -70,18 +70,18 @@ export default function Footer() {
               },
               {
                 type: 'Link',
-                title: 'About',
-                path: '/about',
-              },
-              {
-                type: 'Link',
                 title: 'Portfolio',
                 path: '/portfolio',
               },
               {
                 type: 'Link',
-                title: 'Contact',
-                path: '/contact',
+                title: 'Blog',
+                path: '/blog',
+              },
+              {
+                type: 'Link',
+                title: 'About',
+                path: '/about',
               },
             ]}
           />
@@ -103,19 +103,19 @@ export default function Footer() {
         </div>
         <div className="footer__col4">
           <FooterColumn
-            heading="Social Media"
+            heading="Social"
             links={[
               {
-                title: 'Facebook',
-                path: 'http://facebook.com',
+                title: 'LinkedIn',
+                path: 'https://www.linkedin.com/in/nazzal-naseer/',
               },
               {
-                title: 'Twitter',
-                path: 'http://twitter.com',
+                title: 'Github',
+                path: 'https://github.com/naz-zal/',
               },
               {
-                title: 'Instagram',
-                path: 'http://instagram.com',
+                title: 'Medium',
+                path: 'https://medium.com/@nazzal570',
               },
             ]}
           />

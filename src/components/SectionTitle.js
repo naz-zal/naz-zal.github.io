@@ -5,13 +5,15 @@ const SectionTitleStyle = styled.div`
   text-align: left;
   p {
     font-family: 'Poppins Regular';
-    font-size: 1.5rem;
+    /* font-size: 1.5rem; */
+    font-size: 1.8rem;
+    margin-top: 2%;
   }
   h2 {
     font-family: 'Poppins Regular';
     font-size: 4.5rem;
     margin-top: 0.5rem;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
   }
   @media only screen and (max-width: 768px) {
     text-align: center;
@@ -20,7 +22,7 @@ const SectionTitleStyle = styled.div`
       font-size: 1.2rem;
     }
     h2 {
-      margin-top: -0.5%;
+      margin-top: 0.5%;
       font-size: 2.6rem;
     }
   }
@@ -33,7 +35,7 @@ export default function SectionTitle({
 }) {
   return (
     <SectionTitleStyle>
-      <p>{subheading}</p>
+      <p className="subheading">{subheading}</p>
       <h2>{heading}</h2>
       <p>{description}</p>
     </SectionTitleStyle>
