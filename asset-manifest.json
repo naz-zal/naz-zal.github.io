@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.js": "/static/js/main.b6b642c0.chunk.js",
-    "main.js.map": "/static/js/main.b6b642c0.chunk.js.map",
+    "main.js": "/static/js/main.f285e1f0.chunk.js",
+    "main.js.map": "/static/js/main.f285e1f0.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.2fd7dc15.js",
     "runtime-main.js.map": "/static/js/runtime-main.2fd7dc15.js.map",
-    "static/js/2.3cb3eaaa.chunk.js": "/static/js/2.3cb3eaaa.chunk.js",
-    "static/js/2.3cb3eaaa.chunk.js.map": "/static/js/2.3cb3eaaa.chunk.js.map",
+    "static/js/2.17e173fb.chunk.js": "/static/js/2.17e173fb.chunk.js",
+    "static/js/2.17e173fb.chunk.js.map": "/static/js/2.17e173fb.chunk.js.map",
     "index.html": "/index.html",
-    "static/js/2.3cb3eaaa.chunk.js.LICENSE.txt": "/static/js/2.3cb3eaaa.chunk.js.LICENSE.txt",
+    "static/js/2.17e173fb.chunk.js.LICENSE.txt": "/static/js/2.17e173fb.chunk.js.LICENSE.txt",
     "static/media/Montserrat-Bold.079ca05d.ttf": "/static/media/Montserrat-Bold.079ca05d.ttf",
     "static/media/Montserrat-SemiBold.fa8441f3.ttf": "/static/media/Montserrat-SemiBold.fa8441f3.ttf",
     "static/media/Poppins-Regular.8081832f.ttf": "/static/media/Poppins-Regular.8081832f.ttf",
@@ -21,7 +21,7 @@
   },
   "entrypoints": [
     "static/js/runtime-main.2fd7dc15.js",
-    "static/js/2.3cb3eaaa.chunk.js",
-    "static/js/main.b6b642c0.chunk.js"
+    "static/js/2.17e173fb.chunk.js",
+    "static/js/main.f285e1f0.chunk.js"
   ]
 }
